@@ -71,7 +71,7 @@ with rasterio.open(str(image2)) as ds:
         # max2 = im2.max()
         # min2 = im2.min()
         # im2 = (im2- min2)/(max2 - min2)
-print("SSIM:" + str(ssim(im1,im2)[0]))
+# print("SSIM:" + str(ssim(im1,im2)[0]))
 print("CC:" + str(ssim(im1,im2)[1]))
 print("RMSE:" + str(RMSE(im1,im2)))
 print("MAE:" + str(ssim(im1,im2)[2]))
